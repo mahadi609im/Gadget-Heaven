@@ -1,0 +1,36 @@
+{
+  "status": true,
+  "message": "successfully fetched categories data",
+  "categories": [
+    {
+      "id": 1,
+      "category_name": "Laptop",
+      "small_description": "Portable computers for work, gaming, and productivity, available in various configurations and sizes."
+    },
+    {
+      "id": 2,
+      "category_name": "Phone",
+      "small_description": "Smartphones with powerful processors, cameras, and modern operating systems for daily communication and entertainment."
+    },
+    {
+      "id": 3,
+      "category_name": "Accessories",
+      "small_description": "Essential gadgets and add-ons like headphones, keyboards, and mice to enhance your tech experience."
+    },
+    {
+      "id": 4,
+      "category_name": "Smart Watch",
+      "small_description": "Wearable devices that track fitness, health, and notifications, seamlessly syncing with smartphones."
+    },
+    {
+      "id": 5,
+      "category_name": "MacBook",
+      "small_description": "Apple’s premium line of lightweight and high-performance laptops powered by the latest M-series chips."
+    },
+    {
+      "id": 6,
+      "category_name": "iPhone",
+      "small_description": "Apple’s flagship smartphone series known for its performance, design, and cutting-edge camera system."
+    }
+  ]
+}
