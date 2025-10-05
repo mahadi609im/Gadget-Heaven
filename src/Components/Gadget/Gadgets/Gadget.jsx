@@ -1,7 +1,9 @@
 import React from 'react';
+import { useNavigate } from 'react-router';
 
 const Gadget = ({ gadget }) => {
-  const { product_title, price, product_image } = gadget;
+  const { product_id, product_title, price, product_image } = gadget;
+  const navigate = useNavigate();
 
   return (
     <div className="p-5 bg-white rounded-2xl space-y-6">
@@ -19,7 +21,10 @@ const Gadget = ({ gadget }) => {
         <p className="text-[#09080f99] font-normal text-xl mt-3 pb-4">
           Price: {price}
         </p>
-        <button className="py-[13px] px-[22px] text-[#9538E2] text-lg font-semibold border border-[#9538E2] hover:bg-[#9538E2] hover:text-white transition-all duration-700 rounded-4xl cursor-pointer relative">
+        <button
+          onClick={() => navigate(`product_details/${product_id}`)}
+          className="py-[13px] px-[22px] text-[#9538E2] text-lg font-semibold border border-[#9538E2] hover:bg-[#9538E2] hover:text-white transition-all duration-700 rounded-4xl cursor-pointer relative"
+        >
           View Details
         </button>
       </div>

@@ -5,7 +5,7 @@
     "product_image": "https://i.ibb.co.com/6R1H06Fn/maxresdefault.jpg",
     "category": "MacBook",
     "price": 145000,
-    "description": "Apple M2 chip সহ ultra-slim laptop যা 18 ঘন্টার battery backup দেয়। Lightweight design আর powerful performance এর জন্য এটি perfect choice।",
+    "description": "An ultra-slim laptop powered by the Apple M2 chip that delivers up to 18 hours of battery life. Its lightweight design and powerful performance make it a perfect choice for professionals.",
     "specification": [
       "Apple M2 Chip",
       "8GB RAM",
@@ -22,14 +22,14 @@
     "product_image": "https://i.ibb.co.com/Ps2TKv3V/images.jpg",
     "category": "MacBook",
     "price": 220000,
-    "description": "MacBook Pro M3 শক্তিশালী প্রসেসর ও 120Hz ProMotion ডিসপ্লে সহ একটি প্রিমিয়াম ল্যাপটপ।",
+    "description": "MacBook Pro M3 is a premium laptop featuring a powerful processor and a 120Hz ProMotion display for smooth performance.",
     "specification": [
       "Apple M3 Chip",
       "16GB RAM",
       "512GB SSD",
       "14-inch Liquid Retina XDR Display"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 5.0,
     "brand": "Apple"
   },
@@ -39,7 +39,7 @@
     "product_image": "https://i.ibb.co.com/dJwvtrQN/apple-iphone-15-pro-6-1.jpg",
     "category": "iPhone",
     "price": 175000,
-    "description": "Titanium build এবং A17 Pro chip সহ Apple-এর সবচেয়ে advanced iPhone।",
+    "description": "Apple’s most advanced iPhone featuring a titanium build and the powerful A17 Pro chip for exceptional performance.",
     "specification": [
       "A17 Pro Chip",
       "6.1-inch OLED",
@@ -56,7 +56,7 @@
     "product_image": "https://i.ibb.co.com/FkL426CN/ESR-Project-Zero-Case-for-i-Phone-14-Pro-Main-image.jpg",
     "category": "iPhone",
     "price": 120000,
-    "description": "Powerful A15 Bionic chip সহ sleek design ও impressive camera performance।",
+    "description": "Powered by the A15 Bionic chip, the iPhone 14 offers a sleek design and impressive camera performance.",
     "specification": [
       "A15 Bionic Chip",
       "6.1-inch OLED",
@@ -73,14 +73,14 @@
     "product_image": "https://i.ibb.co.com/fVNFYRxW/images-1.jpg",
     "category": "Laptop",
     "price": 125000,
-    "description": "Compact design এবং InfinityEdge ডিসপ্লে সহ high-performance ultrabook।",
+    "description": "A compact, high-performance ultrabook with a stunning InfinityEdge display and sleek aluminum design.",
     "specification": [
       "Intel Core i7 13th Gen",
       "16GB RAM",
       "512GB SSD",
       "13.4-inch FHD+ Display"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.7,
     "brand": "Dell"
   },
@@ -90,14 +90,14 @@
     "product_image": "https://i.ibb.co.com/3yvc9b6b/652688-437137-01-front-comping.jpg",
     "category": "Laptop",
     "price": 135000,
-    "description": "Convertible 2-in-1 laptop যা touch এবং pen support দেয়।",
+    "description": "A convertible 2-in-1 laptop that supports both touch and pen input for flexible use.",
     "specification": [
       "Intel Core i7",
       "16GB RAM",
       "1TB SSD",
       "13.5-inch OLED Touchscreen"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.8,
     "brand": "HP"
   },
@@ -107,7 +107,7 @@
     "product_image": "https://i.ibb.co.com/fzg0TtLg/rog-strix-g16-g615lp-rv091w-01-500x500.webp",
     "category": "Laptop",
     "price": 165000,
-    "description": "Gaming laptop with high refresh rate display এবং RTX graphics card।",
+    "description": "A gaming laptop featuring a high-refresh-rate display and powerful RTX graphics for an immersive experience.",
     "specification": [
       "Intel i9 13th Gen",
       "16GB RAM",
@@ -124,14 +124,14 @@
     "product_image": "https://i.ibb.co.com/rGNzShnh/images-2.jpg",
     "category": "Phone",
     "price": 155000,
-    "description": "200MP camera এবং S-Pen সহ Samsung এর flagship ফোন।",
+    "description": "Samsung’s flagship phone featuring a 200MP camera, S-Pen support, and premium design.",
     "specification": [
       "Snapdragon 8 Gen 3",
       "12GB RAM",
       "256GB Storage",
       "6.8-inch AMOLED Display"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.9,
     "brand": "Samsung"
   },
@@ -141,14 +141,14 @@
     "product_image": "https://i.ibb.co.com/5Xh89855/images-3.jpg",
     "category": "Phone",
     "price": 105000,
-    "description": "Clean Android experience সহ powerful Tensor G3 chip।",
+    "description": "A smartphone offering a clean Android experience powered by Google’s Tensor G3 chip.",
     "specification": [
       "Google Tensor G3",
       "8GB RAM",
       "128GB Storage",
       "6.2-inch OLED Display"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.7,
     "brand": "Google"
   },
@@ -158,14 +158,14 @@
     "product_image": "https://i.ibb.co.com/XxRG1rmB/images-4.jpg",
     "category": "Phone",
     "price": 90000,
-    "description": "Super-fast charging এবং premium AMOLED display সহ OnePlus flagship।",
+    "description": "A premium flagship smartphone featuring super-fast charging and an impressive AMOLED display.",
     "specification": [
       "Snapdragon 8 Gen 3",
       "16GB RAM",
       "512GB Storage",
       "100W Fast Charging"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.8,
     "brand": "OnePlus"
   },
@@ -175,7 +175,7 @@
     "product_image": "https://i.ibb.co.com/zWnv1x6f/images-5.jpg",
     "category": "Smart Watch",
     "price": 60000,
-    "description": "Always-On display সহ health tracking এবং Siri integration।",
+    "description": "A smartwatch featuring an always-on display, advanced health tracking, and seamless Siri integration.",
     "specification": [
       "S9 Chip",
       "Always-On Retina",
@@ -192,14 +192,14 @@
     "product_image": "https://i.ibb.co.com/4ZDc50q3/images-6.jpg",
     "category": "Smart Watch",
     "price": 40000,
-    "description": "Stylish design সহ advanced fitness tracking এবং long battery life।",
+    "description": "A stylish smartwatch with advanced fitness tracking features and long-lasting battery life.",
     "specification": [
       "Exynos W930",
       "AMOLED Display",
       "Heart Rate Sensor",
       "Sleep Tracking"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.7,
     "brand": "Samsung"
   },
@@ -209,7 +209,7 @@
     "product_image": "https://i.ibb.co.com/ch3nQLKn/images-7.jpg",
     "category": "Smart Watch",
     "price": 25000,
-    "description": "Lightweight fitness smartwatch যা দৈনিক activity ও sleep monitor করে।",
+    "description": "A lightweight fitness smartwatch that tracks daily activities and sleep with precision.",
     "specification": [
       "AMOLED Display",
       "6+ Days Battery",
@@ -226,14 +226,14 @@
     "product_image": "https://i.ibb.co.com/gMYSVKWd/6539959b6c50b04c5cec4e23134c1137.jpg",
     "category": "Accessories",
     "price": 38000,
-    "description": "Industry-leading noise-canceling wireless headphone।",
+    "description": "Industry-leading wireless headphones featuring superior noise cancellation and clear sound quality.",
     "specification": [
       "ANC",
       "Bluetooth 5.3",
       "30hr Battery",
       "Voice Assistant Support"
     ],
-    "availability": true,
+    "availability": false,
     "rating": 4.9,
     "brand": "Sony"
   },
@@ -243,7 +243,7 @@
     "product_image": "https://i.ibb.co.com/tw15HSnT/images-8.jpg",
     "category": "Accessories",
     "price": 12000,
-    "description": "Ergonomic wireless mouse for productivity and comfort।",
+    "description": "An ergonomic wireless mouse designed for productivity and comfort, featuring silent clicks and fast scrolling.",
     "specification": [
       "MagSpeed Wheel",
       "Bluetooth & USB",

@@ -4,6 +4,7 @@ import RootLayout from '../Pages/RootLayout/RootLayout';
 import Home from '../Pages/Home/Home';
 import Statistics from '../Pages/Statistics/Statistics';
 import Dashboard from '../Pages/Dashboard/Dashboard';
+import Details from '../Components/ViewDetails/Details';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,11 @@ const router = createBrowserRouter([
       {
         path: '/dashboard',
         Component: Dashboard,
+      },
+      {
+        path: '/product_details/:id',
+        loader: () => fetch('../../public/gadget.json'),
+        Component: Details,
       },
     ],
   },
