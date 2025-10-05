@@ -5,12 +5,12 @@ const Banner = () => {
   return (
     <div className="relative">
       <div className="m-[12px] md:m-[30px] pb-[48px] lg:pb-[268px] bg-[#9538E2] rounded-lg md:rounded-2xl lg:rounded-4xl  h-full ">
-        <div className="container mx-auto">
+        <div className="container px-[3%] md:px-0 mx-auto">
           <div className="mb-12">
             <Navbar></Navbar>
           </div>
           <div className="text-center max-w-[1120px] w-full mx-auto">
-            <div className="max-w-11/12  h-auto w-full rounded-lg mx-auto  block md:hidden mb-6">
+            <div className="max-w-11/12  h-auto w-full rounded-lg mx-auto  block lg:hidden mb-6">
               <img className="w-full rounded-3xl" src={bannerImg} alt="" />
             </div>
             <h1 className="font-bold text-[32px] md:text-[48px] lg:text-[56px] text-white">
