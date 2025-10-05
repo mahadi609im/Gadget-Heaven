@@ -1,0 +1,257 @@
+[
+  {
+    "product_id": 1,
+    "product_title": "MacBook Air M2",
+    "product_image": "https://i.ibb.co.com/6R1H06Fn/maxresdefault.jpg",
+    "category": "MacBook",
+    "price": 145000,
+    "description": "Apple M2 chip সহ ultra-slim laptop যা 18 ঘন্টার battery backup দেয়। Lightweight design আর powerful performance এর জন্য এটি perfect choice।",
+    "specification": [
+      "Apple M2 Chip",
+      "8GB RAM",
+      "256GB SSD",
+      "13.6-inch Retina Display"
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "brand": "Apple"
+  },
+  {
+    "product_id": 2,
+    "product_title": "MacBook Pro M3",
+    "product_image": "https://i.ibb.co.com/Ps2TKv3V/images.jpg",
+    "category": "MacBook",
+    "price": 220000,
+    "description": "MacBook Pro M3 শক্তিশালী প্রসেসর ও 120Hz ProMotion ডিসপ্লে সহ একটি প্রিমিয়াম ল্যাপটপ।",
+    "specification": [
+      "Apple M3 Chip",
+      "16GB RAM",
+      "512GB SSD",
+      "14-inch Liquid Retina XDR Display"
+    ],
+    "availability": true,
+    "rating": 5.0,
+    "brand": "Apple"
+  },
+  {
+    "product_id": 3,
+    "product_title": "iPhone 15 Pro",
+    "product_image": "https://i.ibb.co.com/dJwvtrQN/apple-iphone-15-pro-6-1.jpg",
+    "category": "iPhone",
+    "price": 175000,
+    "description": "Titanium build এবং A17 Pro chip সহ Apple-এর সবচেয়ে advanced iPhone।",
+    "specification": [
+      "A17 Pro Chip",
+      "6.1-inch OLED",
+      "48MP Main Camera",
+      "USB-C Port"
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "brand": "Apple"
+  },
+  {
+    "product_id": 4,
+    "product_title": "iPhone 14",
+    "product_image": "https://i.ibb.co.com/FkL426CN/ESR-Project-Zero-Case-for-i-Phone-14-Pro-Main-image.jpg",
+    "category": "iPhone",
+    "price": 120000,
+    "description": "Powerful A15 Bionic chip সহ sleek design ও impressive camera performance।",
+    "specification": [
+      "A15 Bionic Chip",
+      "6.1-inch OLED",
+      "12MP Dual Camera",
+      "Ceramic Shield"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "brand": "Apple"
+  },
+  {
+    "product_id": 5,
+    "product_title": "Dell XPS 13",
+    "product_image": "https://i.ibb.co.com/fVNFYRxW/images-1.jpg",
+    "category": "Laptop",
+    "price": 125000,
+    "description": "Compact design এবং InfinityEdge ডিসপ্লে সহ high-performance ultrabook।",
+    "specification": [
+      "Intel Core i7 13th Gen",
+      "16GB RAM",
+      "512GB SSD",
+      "13.4-inch FHD+ Display"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "brand": "Dell"
+  },
+  {
+    "product_id": 6,
+    "product_title": "HP Spectre x360",
+    "product_image": "https://i.ibb.co.com/3yvc9b6b/652688-437137-01-front-comping.jpg",
+    "category": "Laptop",
+    "price": 135000,
+    "description": "Convertible 2-in-1 laptop যা touch এবং pen support দেয়।",
+    "specification": [
+      "Intel Core i7",
+      "16GB RAM",
+      "1TB SSD",
+      "13.5-inch OLED Touchscreen"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "brand": "HP"
+  },
+  {
+    "product_id": 7,
+    "product_title": "Asus ROG Strix G16",
+    "product_image": "https://i.ibb.co.com/fzg0TtLg/rog-strix-g16-g615lp-rv091w-01-500x500.webp",
+    "category": "Laptop",
+    "price": 165000,
+    "description": "Gaming laptop with high refresh rate display এবং RTX graphics card।",
+    "specification": [
+      "Intel i9 13th Gen",
+      "16GB RAM",
+      "1TB SSD",
+      "RTX 4070 GPU"
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "brand": "Asus"
+  },
+  {
+    "product_id": 8,
+    "product_title": "Samsung Galaxy S24 Ultra",
+    "product_image": "https://i.ibb.co.com/rGNzShnh/images-2.jpg",
+    "category": "Phone",
+    "price": 155000,
+    "description": "200MP camera এবং S-Pen সহ Samsung এর flagship ফোন।",
+    "specification": [
+      "Snapdragon 8 Gen 3",
+      "12GB RAM",
+      "256GB Storage",
+      "6.8-inch AMOLED Display"
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "brand": "Samsung"
+  },
+  {
+    "product_id": 9,
+    "product_title": "Google Pixel 8",
+    "product_image": "https://i.ibb.co.com/5Xh89855/images-3.jpg",
+    "category": "Phone",
+    "price": 105000,
+    "description": "Clean Android experience সহ powerful Tensor G3 chip।",
+    "specification": [
+      "Google Tensor G3",
+      "8GB RAM",
+      "128GB Storage",
+      "6.2-inch OLED Display"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "brand": "Google"
+  },
+  {
+    "product_id": 10,
+    "product_title": "OnePlus 12",
+    "product_image": "https://i.ibb.co.com/XxRG1rmB/images-4.jpg",
+    "category": "Phone",
+    "price": 90000,
+    "description": "Super-fast charging এবং premium AMOLED display সহ OnePlus flagship।",
+    "specification": [
+      "Snapdragon 8 Gen 3",
+      "16GB RAM",
+      "512GB Storage",
+      "100W Fast Charging"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "brand": "OnePlus"
+  },
+  {
+    "product_id": 11,
+    "product_title": "Apple Watch Series 9",
+    "product_image": "https://i.ibb.co.com/zWnv1x6f/images-5.jpg",
+    "category": "Smart Watch",
+    "price": 60000,
+    "description": "Always-On display সহ health tracking এবং Siri integration।",
+    "specification": [
+      "S9 Chip",
+      "Always-On Retina",
+      "Blood Oxygen Sensor",
+      "GPS + Cellular"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "brand": "Apple"
+  },
+  {
+    "product_id": 12,
+    "product_title": "Samsung Galaxy Watch 6",
+    "product_image": "https://i.ibb.co.com/4ZDc50q3/images-6.jpg",
+    "category": "Smart Watch",
+    "price": 40000,
+    "description": "Stylish design সহ advanced fitness tracking এবং long battery life।",
+    "specification": [
+      "Exynos W930",
+      "AMOLED Display",
+      "Heart Rate Sensor",
+      "Sleep Tracking"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "brand": "Samsung"
+  },
+  {
+    "product_id": 13,
+    "product_title": "Fitbit Versa 4",
+    "product_image": "https://i.ibb.co.com/ch3nQLKn/images-7.jpg",
+    "category": "Smart Watch",
+    "price": 25000,
+    "description": "Lightweight fitness smartwatch যা দৈনিক activity ও sleep monitor করে।",
+    "specification": [
+      "AMOLED Display",
+      "6+ Days Battery",
+      "Built-in GPS",
+      "Water Resistant"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "brand": "Fitbit"
+  },
+  {
+    "product_id": 14,
+    "product_title": "Sony WH-1000XM5",
+    "product_image": "https://i.ibb.co.com/gMYSVKWd/6539959b6c50b04c5cec4e23134c1137.jpg",
+    "category": "Accessories",
+    "price": 38000,
+    "description": "Industry-leading noise-canceling wireless headphone।",
+    "specification": [
+      "ANC",
+      "Bluetooth 5.3",
+      "30hr Battery",
+      "Voice Assistant Support"
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "brand": "Sony"
+  },
+  {
+    "product_id": 15,
+    "product_title": "Logitech MX Master 3S",
+    "product_image": "https://i.ibb.co.com/tw15HSnT/images-8.jpg",
+    "category": "Accessories",
+    "price": 12000,
+    "description": "Ergonomic wireless mouse for productivity and comfort।",
+    "specification": [
+      "MagSpeed Wheel",
+      "Bluetooth & USB",
+      "Silent Clicks",
+      "Rechargeable Battery"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "brand": "Logitech"
+  }
+]

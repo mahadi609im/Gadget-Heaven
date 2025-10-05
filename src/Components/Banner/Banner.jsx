@@ -1,13 +1,12 @@
-import React from 'react';
-import Navbar from '../Navbar/Navbar';
 import bannerImg from '../../assets/banner.jpg';
+import BannerNav from '../Navbar/BannerNav';
 const Banner = () => {
   return (
     <div className="relative">
-      <div className="m-[12px] md:m-[30px] pb-[48px] lg:pb-[268px] bg-[#9538E2] rounded-lg md:rounded-2xl lg:rounded-4xl  h-full ">
+      <div className="pb-[48px] lg:pb-[268px] bg-[#9538E2] rounded-lg md:rounded-2xl lg:rounded-4xl  h-full ">
         <div className="container px-[3%] md:px-0 mx-auto">
           <div className="mb-12">
-            <Navbar></Navbar>
+            <BannerNav></BannerNav>
           </div>
           <div className="text-center max-w-[1120px] w-full mx-auto">
             <div className="max-w-11/12  h-auto w-full rounded-lg mx-auto  block lg:hidden mb-6">

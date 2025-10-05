@@ -1,16 +1,15 @@
-import React from 'react';
-import Banner from '../../Components/Banner/Banner';
-import GadgetManagement from '../../Components/Gadget/GadgetManagement/GadgetManagement';
-
+import { Outlet, useLocation } from 'react-router';
+import Navbar from '../../Components/Navbar/Navbar';
+import Footer from '../../Components/Footer/Footer';
+import './styles.css';
 const RootLayout = () => {
+  const { pathname } = useLocation();
+
   return (
     <div>
-      <div>
-        <Banner />
-      </div>
-      <div className="my-[56px] md:my-[72px] lg:mt-[450px] lg:mb-[100px]">
-        <GadgetManagement></GadgetManagement>
-      </div>
+      {pathname !== '/' && <Navbar></Navbar>}
+      <Outlet></Outlet>
+      <Footer></Footer>
     </div>
   );
 };
