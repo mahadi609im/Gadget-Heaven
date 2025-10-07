@@ -1,4 +1,3 @@
-import React from 'react';
 import Banner from '../../Components/Banner/Banner';
 import GadgetManagement from '../../Components/Gadget/GadgetManagement/GadgetManagement';
 

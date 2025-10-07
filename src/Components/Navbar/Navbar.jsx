@@ -1,10 +1,8 @@
 import React from 'react';
-import { Link, NavLink, useLocation } from 'react-router';
+import { Link, NavLink } from 'react-router';
 import { FaRegHeart } from 'react-icons/fa';
 import { GrCart } from 'react-icons/gr';
 const Navbar = () => {
-  const path = useLocation();
-
   return (
     <div className=" w-full f py-4 bg-[#9538E2]">
       <div className="navbar flex justify-between items-center container mx-auto px-[3%] md:px-0">

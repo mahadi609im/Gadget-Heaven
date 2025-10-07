@@ -1,13 +1,35 @@
-import React from 'react';
-import { useLoaderData, useParams } from 'react-router';
-import { FaRegStar, FaStar } from 'react-icons/fa';
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router';
+import { FaRegHeart, FaRegStar, FaStar } from 'react-icons/fa';
+import { MdOutlineShoppingCart } from 'react-icons/md';
+import {
+  getWishlistState,
+  setStoreData,
+  setWishlistState,
+  setWishlistStored,
+} from '../../Utility/StoreData';
+import { FaHeartCircleCheck } from 'react-icons/fa6';
+import useDataLoader from '../../hooks/useDataLoader';
 
 const Details = () => {
-  const data = useLoaderData();
+  const [wishlistClicked, setWishlistClicked] = useState([]);
+
+  useEffect(() => {
+    const storedWishlist = getWishlistState();
+    if (storedWishlist) {
+      setWishlistClicked(storedWishlist);
+    }
+  }, []);
+
+  const { products } = useDataLoader();
+  console.log(products);
   const { id } = useParams();
   const paramsId = parseInt(id);
-  const product = data.find(el => el.product_id === paramsId);
+
+  const product = products.find(product => product.product_id === paramsId);
+  console.log(product);
   const {
+    product_id,
     product_image,
     description,
     price,
@@ -15,7 +37,23 @@ const Details = () => {
     rating,
     specification,
     availability,
-  } = product;
+  } = product || {};
+
+  const handleAddToCart = id => {
+    setStoreData(id);
+  };
+
+  const handleAddToWishlist = (id, stateValue) => {
+    setWishlistStored(id);
+    const wishlistAdded = {
+      [id]: stateValue,
+    };
+    setWishlistState(wishlistAdded);
+
+    const getStoredStatus = getWishlistState();
+    const newStoredStatus = [...getStoredStatus];
+    setWishlistClicked(newStoredStatus);
+  };
 
   return (
     <div className="h-[1000px]">
@@ -34,7 +72,7 @@ const Details = () => {
         </div>
       </div>
 
-      <div className="bg-white p-8 rounded-3xl container mx-auto px-[3%] md:px-8 h-[567px] flex flex-col md:grid md:grid-cols-12 gap-8 lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2">
+      <div className="bg-white p-8 rounded-3xl container mx-auto px-[3%] md:px-8 h-auto flex flex-col md:grid md:grid-cols-12 gap-8 lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2">
         <div className="md:col-span-4 flex items-center md:w-full h-auto lg:h-full rounded-2xl">
           <img
             className="w-full h-auto object-cover rounded-2xl"
@@ -65,11 +103,12 @@ const Details = () => {
             <h3 className="font-bold text-[#09080F] text-lg mb-3">
               Specification:
             </h3>
-            {specification.map((el, idx) => (
-              <li className="text-lg text-[#09080f99] font-normal" key={idx}>
-                {idx + 1} {el}
-              </li>
-            ))}
+            {specification &&
+              specification.map((el, idx) => (
+                <li className="text-lg text-[#09080f99] font-normal" key={idx}>
+                  {idx + 1} {el}
+                </li>
+              ))}
           </ul>
           <div>
             <h4 className="font-bold text-lg text-[#09080F] mb-3">Rating</h4>
@@ -118,6 +157,24 @@ const Details = () => {
                 {rating}
               </p>
             </div>
+          </div>
+          <div className="mt-4 flex gap-4">
+            <button
+              onClick={() => handleAddToCart(product_id)}
+              className="py-[11px] px-[22px] text-white font-bold text-lg bg-[#9538E2] rounded-4xl flex gap-3 items-center cursor-pointer"
+            >
+              Add To Card <MdOutlineShoppingCart className="text-xl" />
+            </button>
+            <button
+              onClick={() => handleAddToWishlist(product_id, true)}
+              className="w-[48px] h-[48px] flex justify-center items-center border border-[#09080f80] rounded-full cursor-pointer"
+            >
+              {wishlistClicked.some(obj => obj[product_id] === true) ? (
+                <FaHeartCircleCheck className="text-2xl text-[#FF0000]" />
+              ) : (
+                <FaRegHeart className="text-2xl text-[#3A3A3A]" />
+              )}
+            </button>
           </div>
         </div>
       </div>

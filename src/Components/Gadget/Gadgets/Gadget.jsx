@@ -6,7 +6,7 @@ const Gadget = ({ gadget }) => {
   const navigate = useNavigate();
 
   return (
-    <div className="p-5 bg-white rounded-2xl space-y-6">
+    <div className="p-5 bg-white rounded-2xl space-y-6 shadow">
       <div className="bg-[#D9D9D9] h-[181px] w-full rounded-xl">
         <img
           className="w-full h-full object-cover"

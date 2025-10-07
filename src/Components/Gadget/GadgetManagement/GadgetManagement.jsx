@@ -1,8 +1,8 @@
-import { useLoaderData } from 'react-router';
 import Gadgets from '../Gadgets/Gadgets';
+import useDataLoader from '../../../hooks/useDataLoader';
 
 const GadgetManagement = () => {
-  const gadgetData = useLoaderData();
+  const { products } = useDataLoader();
 
   return (
     <div className="container mx-auto">
@@ -11,7 +11,7 @@ const GadgetManagement = () => {
       </h2>
 
       <div className="mt-12">
-        <Gadgets gadgetData={gadgetData}></Gadgets>
+        <Gadgets gadgetData={products}></Gadgets>
       </div>
     </div>
   );
